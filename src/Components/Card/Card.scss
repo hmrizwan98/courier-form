@@ -1,0 +1,29 @@
+.card {
+  background: white;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #d4d4d4;
+  .heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #d71b22;
+    width: 100%;
+  }
+  .next-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 8px;
+    button {
+      margin-left: 10px;
+    }
+  }
+  .padding-left {
+    padding-left: 8px;
+    margin-bottom: 20px;
+  }
+}
